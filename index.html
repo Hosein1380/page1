@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel='stylesheet' type='text/css' media='screen' href='./style.css'>
+    <script src="./index.js"></script>
 </head>
-</head>
+
+
 
 <body>
     <div class="main">
@@ -26,15 +28,17 @@
         </div>
         <div class="parent">
             <div class="form">
-            <h1 id="title">sin up</h1>
+            <h1 id="title">sign up</h1>
+            <form action="" class="form">
             <input type="text" name="fname" id="fname" class="data" placeholder="firstname">
-            <input type="text" name="fname" id="lname" class="data" placeholder="lastname">
-            <input type="email" name="fname" id="email" class="data" placeholder="email">
-            <input type="password" name="fname" id="pass" class="data" placeholder="password">
-            <input type="button" value="register" id="register">
+            <input type="text" name="lname" id="lname" class="data" placeholder="lastname">
+            <input type="email" name="email" id="email" class="data" placeholder="email">
+            <input type="password" name="pass" id="pass" class="data" placeholder="password">
+            <input type="submit" value="register" id="register" onclick="registerUser()">
+        </form>
         </div>
         </div>
     </div>
+    
 </body>
-
 </html>
