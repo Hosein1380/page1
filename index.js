@@ -8,7 +8,9 @@ function registerUser(){
     localStorage.setItem('lname',lname);
     localStorage.setItem('email',email);
     localStorage.setItem('pass',pass);
+    let home= "./home.html";
+    window.open(home);
+    // console.log(home); 
+    // document.getElementById("register").addEventListener("click", home);
 }
-
-
 
